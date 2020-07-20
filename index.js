@@ -55,7 +55,7 @@ app.listen(PORT, function () {
     const {language,page} = req.query
     console.log(keys.MOVIEKEY)
     fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${keys.MOVIEKEY}&language=en-US&page=${page}`).then(res => res.json()).then(response => {
-      res.send(response)
+      res.json(response)
     })
   })
 
