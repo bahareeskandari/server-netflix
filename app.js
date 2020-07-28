@@ -3,15 +3,6 @@
 // const bodyParser = require('body-parser')
 // const fetch = require('isomorphic-fetch')
 
-// let keys
-// let YELP_KEY
-// if (process.env.NODE_ENV === 'production') {
-//   YELP_KEY = process.env.YELP_KEY
-// } else {
-//   keys = require('./keys.json')
-//   YELP_KEY = keys.yelpKey
-// }
-
 // const app = express()
 // const router = express.Router()
 // const PORT = process.env.PORT || 9000
